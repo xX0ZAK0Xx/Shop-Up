@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:shopup/utils/theme/theme.dart';
+import 'package:shopup/app.dart';
 
 void main() {
+  // TODO: Add widget Binding
+  // TODO: Init Local Storage
+  // TODO: Await Native Splash
+  // TODO: Initialize Firebase 
+  // TODO: Initialize Authentication
+   
   // ignore: prefer_const_constructors
-  runApp(MaterialApp(
-    themeMode: ThemeMode.system,
-    theme: TAppTheme.lightTheme,
-    darkTheme: TAppTheme.darkTheme,
-  ));
+  runApp(App());
 }
