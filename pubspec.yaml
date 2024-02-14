@@ -1,0 +1,64 @@
+name: shopup
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0-279.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter  
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+
+flutter:
+  
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+    - assets/logos/
+  
+  fonts:
+    - family: Coolvetica
+      fonts:
+        - asset: assets\fonts\coolvetica-rg-it.otf
+          weight: 400
+          style: italic
+        - asset: assets\fonts\coolvetica-rg.otf
+          weight: 400
+    - family: Poppins
+      fonts:
+        - asset: assets\fonts\Poppins-Light.ttf
+          weight: 300
+        - asset: assets\fonts\Poppins-Regular.ttf
+          weight: 400
+        - asset: assets\fonts\Poppins-Italic.ttf
+          style: italic
+        - asset: assets\fonts\Poppins-Medium.ttf
+          weight: 500
+        - asset: assets\fonts\Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets\fonts\Poppins-Bold.ttf
+          weight: 800
+        - asset: assets\fonts\Poppins-BoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets\fonts\Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets\fonts\Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+
