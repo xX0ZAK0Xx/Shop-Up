@@ -21,7 +21,7 @@ dependencies:
   get_storage: ^2.1.1
   connectivity_plus: ^5.0.2
   firebase_storage: ^11.6.5
-  flutter_native_splash: ^2.3.10
+  smooth_page_indicator: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -38,6 +38,7 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/logos/
+    - assets/images/on_boarding_images/
   
   fonts:
     - family: Coolvetica
@@ -70,4 +71,3 @@ flutter:
         - asset: assets\fonts\Poppins-SemiBoldItalic.ttf
           weight: 600
           style: italic
-
