@@ -1,20 +1,25 @@
 
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:shopup/features/authentication/screens/email_verification.dart';
+import 'package:shopup/features/authentication/screens/signup.dart';
 import 'package:shopup/features/authentication/screens/widgets/signup/terms_and_conditions.dart';
+import 'package:shopup/utils/constants/colors.dart';
 import 'package:shopup/utils/constants/sizes.dart';
 import 'package:shopup/utils/constants/text_strings.dart';
+import 'package:shopup/utils/helpers/helper_functions.dart';
 
 class TSignupForm extends StatelessWidget {
   const TSignupForm({
     super.key,
-    required this.isDark,
   });
 
-  final bool isDark;
 
   @override
   Widget build(BuildContext context) {
+    final isDark = THelperFunctions.isDarkMode(context);
     return Form(
         child: Column(
       children: [
@@ -98,7 +103,7 @@ class TSignupForm extends StatelessWidget {
         SizedBox(
           width: double.infinity,
           child: ElevatedButton(
-            onPressed: (){},
+            onPressed: () => Get.to(()=> const EmailVerificationScreen()),
             child: const Text(TTexts.createAccount),
           ),
         )

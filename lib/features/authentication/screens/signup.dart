@@ -32,7 +32,7 @@ class SignupScreen extends StatelessWidget {
 
               const SizedBox(height: 50,),
               //Form,
-              TSignupForm(isDark: isDark),
+              const TSignupForm(),
               const SizedBox(height: TSizes.spaceBtwSections,),
 
               //divider,
