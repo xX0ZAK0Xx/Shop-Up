@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shopup/features/authentication/controllers/controller_onboarding/onboarding_controller.dart';
-import 'package:shopup/features/authentication/screens/widgets/onboarding_button_navigation.dart';
-import 'package:shopup/features/authentication/screens/widgets/onboarding_dot_navigation.dart';
-import 'package:shopup/features/authentication/screens/widgets/onboarding_page.dart';
-import 'package:shopup/features/authentication/screens/widgets/onboarding_skip.dart';
+import 'package:shopup/features/authentication/screens/widgets/onboarding/onboarding_button_navigation.dart';
+import 'package:shopup/features/authentication/screens/widgets/onboarding/onboarding_dot_navigation.dart';
+import 'package:shopup/features/authentication/screens/widgets/onboarding/onboarding_page.dart';
+import 'package:shopup/features/authentication/screens/widgets/onboarding/onboarding_skip.dart';
 import 'package:shopup/utils/constants/image_strings.dart';
 import 'package:shopup/utils/constants/sizes.dart';
 import 'package:shopup/utils/constants/text_strings.dart';
