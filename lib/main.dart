@@ -8,6 +8,5 @@ void main() {
   // TODO: Initialize Firebase 
   // TODO: Initialize Authentication
    
-  // ignore: prefer_const_constructors
   runApp(App());
 }
