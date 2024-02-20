@@ -20,7 +20,7 @@ class SignupScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const SizedBox(height: 30,),
+              const SizedBox(height: 40,),
               //Title,
               Text(
                 TTexts.signupTitle,
@@ -30,7 +30,7 @@ class SignupScreen extends StatelessWidget {
                 height: TSizes.spaceBtwSections,
               ),
 
-              const SizedBox(height: 50,),
+              const SizedBox(height: 30,),
               //Form,
               const TSignupForm(),
               const SizedBox(height: TSizes.spaceBtwSections,),

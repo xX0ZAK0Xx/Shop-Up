@@ -30,6 +30,7 @@ class TSignupForm extends StatelessWidget {
                 expands: false,
                 decoration: const InputDecoration(
                     labelText: TTexts.firstName,
+                    floatingLabelBehavior: FloatingLabelBehavior.never,
                     prefixIcon: Icon(Iconsax.user)),
               ),
             ),
@@ -41,6 +42,7 @@ class TSignupForm extends StatelessWidget {
                 expands: false,
                 decoration: const InputDecoration(
                     labelText: TTexts.lastName,
+                    floatingLabelBehavior: FloatingLabelBehavior.never,
                     prefixIcon: Icon(Iconsax.user)),
               ),
             ),
@@ -54,6 +56,7 @@ class TSignupForm extends StatelessWidget {
           expands: false,
           decoration: const InputDecoration(
               labelText: TTexts.username,
+              floatingLabelBehavior: FloatingLabelBehavior.never,
               prefixIcon: Icon(Iconsax.user_edit)),
         ),
         const SizedBox(
@@ -65,6 +68,7 @@ class TSignupForm extends StatelessWidget {
           expands: false,
           decoration: const InputDecoration(
               labelText: TTexts.email,
+              floatingLabelBehavior: FloatingLabelBehavior.never,
               prefixIcon: Icon(Iconsax.direct)),
         ),
         const SizedBox(
@@ -76,6 +80,7 @@ class TSignupForm extends StatelessWidget {
           expands: false,
           decoration: const InputDecoration(
               labelText: TTexts.phoneNo,
+              floatingLabelBehavior: FloatingLabelBehavior.never,
               prefixIcon: Icon(Iconsax.call)),
         ),
         const SizedBox(
@@ -88,6 +93,7 @@ class TSignupForm extends StatelessWidget {
           expands: false,
           decoration: const InputDecoration(
               labelText: TTexts.password,
+              floatingLabelBehavior: FloatingLabelBehavior.never,
               prefixIcon: Icon(Iconsax.password_check),
               suffixIcon: Icon(Iconsax.eye_slash)),
         ),

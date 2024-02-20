@@ -25,8 +25,9 @@ class TLoginForm extends StatelessWidget {
         TextFormField(
           decoration: const InputDecoration(
               prefixIcon: Icon(Iconsax.direct_right),
-              labelText: '',
-              hintText: TTexts.email),
+              labelText: TTexts.email,
+              floatingLabelBehavior: FloatingLabelBehavior.never
+              ),
         ),
         const SizedBox(
           height: TSizes.spaceBtwInputFields,
@@ -34,8 +35,8 @@ class TLoginForm extends StatelessWidget {
         TextFormField(
           decoration: const InputDecoration(
             prefixIcon: Icon(Iconsax.password_check),
-            labelText: '',
-            hintText: TTexts.password,
+            labelText: TTexts.password,
+            floatingLabelBehavior: FloatingLabelBehavior.never,
             suffixIcon: Icon(Iconsax.eye_slash),
           ),
         ),
