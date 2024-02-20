@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:shopup/common/styles/spacing_styles.dart';
-import 'package:shopup/common/widgets_login_signup/form_divider.dart';
-import 'package:shopup/common/widgets_login_signup/social_sections.dart';
+import 'package:shopup/common/widgets/widgets_login_signup/form_divider.dart';
+import 'package:shopup/common/widgets/widgets_login_signup/social_sections.dart';
 import 'package:shopup/features/authentication/screens/widgets/login/login_form.dart';
 import 'package:shopup/features/authentication/screens/widgets/login/login_header.dart';
 import 'package:shopup/utils/constants/sizes.dart';

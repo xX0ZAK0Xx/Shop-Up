@@ -1,22 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:shopup/common/customShapes/containers/circular_container.dart';
-import 'package:shopup/common/customShapes/containers/primary_header_container.dart';
-import 'package:shopup/common/customShapes/curvedWidgets/curved_edges_widgets.dart';
-import 'package:shopup/utils/constants/colors.dart';
-
+import 'package:shopup/common/widgets/customShapes/containers/primary_header_container.dart';
+import 'package:shopup/features/shop/screens/home/widgets/home_appbar.dart';
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return const Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
             TPrimaryHeaderContainer(
-              child: Container(),
-            ),
+                child: Column(
+              children: [
+                //AppBar
+                THomeAppBar()
+
+                //SearchBar
+
+                //Category
+              ],
+            )),
           ],
         ),
       ),

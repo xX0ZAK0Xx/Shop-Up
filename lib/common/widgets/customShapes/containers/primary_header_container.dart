@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:shopup/common/customShapes/containers/circular_container.dart';
-import 'package:shopup/common/customShapes/curvedWidgets/curved_edges_widgets.dart';
+import 'package:shopup/common/widgets/customShapes/containers/circular_container.dart';
+import 'package:shopup/common/widgets/customShapes/curvedWidgets/curved_edges_widgets.dart';
 import 'package:shopup/utils/constants/colors.dart';
 
 class TPrimaryHeaderContainer extends StatelessWidget {
@@ -23,7 +23,7 @@ class TPrimaryHeaderContainer extends StatelessWidget {
           height: 400,
           child: Stack(
             children: [
-              //Background custom shapes
+              //Background custom shape,s
               Positioned(
                 top: -150,
                 right: -250,
@@ -38,6 +38,7 @@ class TPrimaryHeaderContainer extends StatelessWidget {
                   backgroundColor: TColors.textWhite.withOpacity(0.1),
                 ),
               ),
+              child,
             ],
           ),
         ),

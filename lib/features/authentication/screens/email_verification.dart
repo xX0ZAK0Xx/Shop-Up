@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shopup/common/widgets_login_signup/success_screen.dart';
+import 'package:shopup/common/widgets/widgets_login_signup/success_screen.dart';
 import 'package:shopup/features/authentication/screens/login.dart';
 import 'package:shopup/utils/constants/colors.dart';
 import 'package:shopup/utils/constants/image_strings.dart';
