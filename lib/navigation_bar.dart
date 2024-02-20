@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:shopup/features/shop/screens/home_page.dart';
+import 'package:shopup/features/shop/screens/home/home_page.dart';
 import 'package:shopup/utils/constants/colors.dart';
 import 'package:shopup/utils/helpers/helper_functions.dart';
 
