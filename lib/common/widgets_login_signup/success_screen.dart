@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:shopup/common/styles/spacing_styles.dart';
+import 'package:shopup/features/authentication/screens/login.dart';
 import 'package:shopup/utils/constants/colors.dart';
 import 'package:shopup/utils/constants/sizes.dart';
 import 'package:shopup/utils/constants/text_strings.dart';
@@ -53,7 +55,7 @@ class SuccessScreen extends StatelessWidget {
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                       backgroundColor: isDark ? TColors.dark : TColors.light),
-                  onPressed: (){},
+                  onPressed: () => Get.offAll(()=>const LoginScreen()),
                   child: Text(
                     TTexts.tContinue,
                     style:
