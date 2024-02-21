@@ -4,6 +4,8 @@ import 'package:shopup/common/widgets/searchContainer/search_container.dart';
 import 'package:shopup/common/widgets/text/section_heading.dart';
 import 'package:shopup/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:shopup/features/shop/screens/home/widgets/home_categories.dart';
+import 'package:shopup/features/shop/screens/home/widgets/promo_slider.dart';
+import 'package:shopup/utils/constants/image_strings.dart';
 import 'package:shopup/utils/constants/sizes.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -55,6 +57,12 @@ class HomeScreen extends StatelessWidget {
                 ),
               ],
             )),
+
+            //Body,
+            Padding(
+              padding: EdgeInsets.all(TSizes.defaultSpace),
+              child: TPromoSlider(banners: [TImages.promoBanner1, TImages.promoBanner2, TImages.promoBanner3],),
+            )
           ],
         ),
       ),
