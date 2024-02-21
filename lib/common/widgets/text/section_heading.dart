@@ -17,7 +17,9 @@ class TSectionHeading extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(children: [
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
       Text(
         title,
         style:
@@ -26,7 +28,7 @@ class TSectionHeading extends StatelessWidget {
         overflow: TextOverflow.ellipsis,
       ),
       if (showActionButton)
-        TextButton(onPressed: onPressed, child: Text(buttonTitle)),
+        TextButton(onPressed: onPressed, child: Text(buttonTitle, style: Theme.of(context).textTheme.bodyMedium,)),
     ]);
   }
 }
