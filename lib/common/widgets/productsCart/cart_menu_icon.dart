@@ -17,10 +17,11 @@ class TCartContainer extends StatelessWidget {
       children: [
         IconButton(onPressed: onPressed, icon: Icon(Iconsax.shopping_bag, color: iconColor,)),
         Positioned(
-          right: 0,
+          right: 5,
+          top: 10,
           child: Container(
-            width: 10,
-            height: 10,
+            width: 15,
+            height: 15,
             decoration: BoxDecoration(
               color: TColors.black,
               borderRadius: BorderRadius.circular(100),
@@ -31,7 +32,7 @@ class TCartContainer extends StatelessWidget {
                 style: Theme.of(context)
                     .textTheme
                     .labelLarge!
-                    .apply(color: TColors.white, fontSizeFactor: 0.8),
+                    .apply(color: TColors.white, fontSizeFactor: 0.9),
               ),
             ),
           ),
