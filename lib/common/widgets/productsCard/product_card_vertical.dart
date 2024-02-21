@@ -20,13 +20,13 @@ class TProductCardVertical extends StatelessWidget {
       onTap: (){},
       child: Container(
         height: 250,
-        padding: const EdgeInsets.all(1),
         decoration: BoxDecoration(
           boxShadow: [TShadowStyle.veticalProductShadow],
           borderRadius: BorderRadius.circular(TSizes.productImageRadius),
           color: isDark ? TColors.darkGrey : TColors.white,
         ),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             //Thumbnail: wishlist, discount,
             TRoundedContainer(
@@ -87,10 +87,10 @@ class TProductCardVertical extends StatelessWidget {
                 children: [
                   const TProductTitleText(
                     title: 'Green Nike Air Shoes',
-                    smallSize: true,
+                    smallSize: false,
                   ),
                   const SizedBox(
-                    height: TSizes.spaceBtwItems / 2,
+                    height: TSizes.xs,
                   ),
                   Row(
                     children: [
@@ -98,7 +98,7 @@ class TProductCardVertical extends StatelessWidget {
                         'Nike',
                         overflow: TextOverflow.ellipsis,
                         maxLines: 1,
-                        style: Theme.of(context).textTheme.labelMedium,
+                        style: Theme.of(context).textTheme.titleMedium,
                       ),
                       const SizedBox(
                         width: TSizes.xs,
@@ -106,7 +106,7 @@ class TProductCardVertical extends StatelessWidget {
                       const Icon(
                         Iconsax.verify5,
                         color: TColors.primary,
-                        size: TSizes.iconXs,
+                        size: TSizes.iconSm,
                       ),
                     ],
                   ),
