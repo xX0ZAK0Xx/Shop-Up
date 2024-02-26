@@ -4,6 +4,7 @@ import 'package:shopup/common/styles/shadow.dart';
 import 'package:shopup/common/widgets/Images/rounded_image.dart';
 import 'package:shopup/common/widgets/customShapes/containers/rounded_container.dart';
 import 'package:shopup/common/widgets/icons/circular_icon.dart';
+import 'package:shopup/common/widgets/text/brand_title_text_with_verified_icon.dart';
 import 'package:shopup/common/widgets/text/producct_title_text.dart';
 import 'package:shopup/utils/constants/colors.dart';
 import 'package:shopup/utils/constants/image_strings.dart';
@@ -92,24 +93,7 @@ class TProductCardVertical extends StatelessWidget {
                   const SizedBox(
                     height: TSizes.xs,
                   ),
-                  Row(
-                    children: [
-                      Text(
-                        'Nike',
-                        overflow: TextOverflow.ellipsis,
-                        maxLines: 1,
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
-                      const SizedBox(
-                        width: TSizes.xs,
-                      ),
-                      const Icon(
-                        Iconsax.verify5,
-                        color: TColors.primary,
-                        size: TSizes.iconSm,
-                      ),
-                    ],
-                  ),
+                  const BrandTitleTextWithVerifiedIcon(title: 'Nike',),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [

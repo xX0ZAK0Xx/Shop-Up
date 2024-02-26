@@ -11,14 +11,18 @@ class TSeachContainer extends StatelessWidget {
     required this.text,
     this.icon = Iconsax.search_normal,
     this.showBackground = true,
-    this.showBorder = true, 
+    this.showBorder = true,
     this.onTap,
+    this.itemColor = Colors.white, 
+    this.padding = const EdgeInsets.symmetric(horizontal: TSizes.defaultSpace),
   });
 
   final String text;
   final IconData? icon;
   final bool showBackground, showBorder;
   final void Function()? onTap;
+  final Color? itemColor;
+  final EdgeInsetsGeometry padding;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +30,7 @@ class TSeachContainer extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: TSizes.defaultSpace),
+        padding: padding,
         child: Container(
           width: TDeviceUtils.getScreenWidth(context),
           padding: const EdgeInsets.all(TSizes.md),
@@ -47,14 +51,17 @@ class TSeachContainer extends StatelessWidget {
             children: [
               Icon(
                 icon,
-                color: TColors.white,
+                color: itemColor,
               ),
               const SizedBox(
                 width: TSizes.spaceBtwItems,
               ),
               Text(
                 text,
-                style: Theme.of(context).textTheme.bodySmall!.apply(color: TColors.white),
+                style: Theme.of(context)
+                    .textTheme
+                    .bodySmall!
+                    .apply(color: itemColor),
               )
             ],
           ),
