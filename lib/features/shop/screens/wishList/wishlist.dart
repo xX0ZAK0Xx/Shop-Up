@@ -28,6 +28,7 @@ class FavoriteScreen extends StatelessWidget {
           child: Column(
             children: [
               TGridLayout(
+                  mainAxisExtenet: 280,
                   itemCount: 4,
                   itemBuilder: (_, index) => const TProductCardVertical()),
             ],

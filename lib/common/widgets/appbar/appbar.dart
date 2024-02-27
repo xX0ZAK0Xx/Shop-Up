@@ -44,7 +44,7 @@ class TAppBar extends StatelessWidget implements PreferredSizeWidget {
                 ],
               ),
               Row(
-                children: actions!,
+                children: actions ?? [],
               )
             ],
           )
