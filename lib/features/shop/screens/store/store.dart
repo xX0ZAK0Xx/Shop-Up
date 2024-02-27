@@ -6,10 +6,8 @@ import 'package:shopup/common/widgets/layout/grid_layout.dart';
 import 'package:shopup/common/widgets/productsCart/cart_menu_icon.dart';
 import 'package:shopup/common/widgets/searchContainer/search_container.dart';
 import 'package:shopup/common/widgets/text/section_heading.dart';
-import 'package:shopup/features/shop/screens/store/widget/brand_showcase.dart';
 import 'package:shopup/features/shop/screens/store/widget/category_tab.dart';
 import 'package:shopup/utils/constants/colors.dart';
-import 'package:shopup/utils/constants/image_strings.dart';
 import 'package:shopup/utils/constants/sizes.dart';
 import 'package:shopup/utils/helpers/helper_functions.dart';
 

@@ -18,7 +18,7 @@ class OnBoardingSkip extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
           decoration: BoxDecoration(
-            color: Color.fromARGB(130, 238, 212, 255),
+            color: const Color.fromARGB(130, 238, 212, 255),
             borderRadius: BorderRadius.circular(20),
           ),
           child: const Center(child: Text("Skip"),),

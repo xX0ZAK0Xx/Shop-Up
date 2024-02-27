@@ -16,7 +16,7 @@ class OnBoardDotNavigation extends StatelessWidget {
     final controller = OnboardingController.instance;
     return Positioned(
       bottom: TDeviceUtils.getBottomNavigationBarHeight() + 40,
-      child: Container(
+      child: SizedBox(
         height: 50,
         width: TDeviceUtils.getScreenWidth(context) - 48,
         child: Center(

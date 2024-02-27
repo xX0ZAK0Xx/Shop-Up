@@ -8,5 +8,5 @@ void main() {
   // TODO: Initialize Firebase 
   // TODO: Initialize Authentication
    
-  runApp(App());
+  runApp(const App());
 }

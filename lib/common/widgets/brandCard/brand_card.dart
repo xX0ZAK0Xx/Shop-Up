@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:shopup/common/widgets/Images/circular_image.dart';
 import 'package:shopup/common/widgets/customShapes/containers/rounded_container.dart';
 import 'package:shopup/common/widgets/text/brand_title_text_with_verified_icon.dart';

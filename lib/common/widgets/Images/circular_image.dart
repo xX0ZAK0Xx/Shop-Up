@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shopup/utils/constants/colors.dart';
-import 'package:shopup/utils/constants/image_strings.dart';
 import 'package:shopup/utils/constants/sizes.dart';
 import 'package:shopup/utils/helpers/helper_functions.dart';
 
